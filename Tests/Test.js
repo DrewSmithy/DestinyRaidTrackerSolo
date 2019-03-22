@@ -1,8 +1,10 @@
 let getTime = (time, username, displayName) => {
     time
+        .api.pause(200)
+    time
         .clearValue('@searchInput')
         .setValue('@searchInput', username + time.api.Keys.ENTER)
-        .api.pause(5000)
+        .api.pause(500)
     time
         // .click('@searchButton')
         .waitForElementPresent('@clearsRank', 5000, 'Verifying Search')
@@ -28,9 +30,9 @@ module.exports = {
     },
 
 'Fastest Time Test' : browser => {
-    getTime(browser.page.RaidReport(), 'speed4455880#1517', 'speed4455880')
     getTime(browser.page.RaidReport(), 'DijonKetchup#11281', 'DijonKetchup')
-    getTime(browser.page.RaidReport(), 'willcall#1100', 'willcall')
+    getTime(browser.page.RaidReport(), 'skorca#1282', 'skorca')
+    getTime(browser.page.RaidReport(), 'trexno2#1928', 'trexno2')
 }
 
 

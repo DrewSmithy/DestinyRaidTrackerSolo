@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="Test"
+    errors="0" failures="1" hostname="" id="" package="Test" skipped="0"
+    tests="1" time="14.43" timestamp="">
+  
+    <testcase name="Fastest Time Test" classname="Test" time="14.43" assertions="13">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Search Verified - expected [0;32m&#34;willcall&#34;[0m but got: [0;31m&#34;DijonKetchup&#34;[0m">    at getTime (C:\Users\atrai\DevMountainClassWork\Projects\DestinyRaidTrackerSolo\Tests\Test.js:11:17)
+    at Object.Fastest Time Test (C:\Users\atrai\DevMountainClassWork\Projects\DestinyRaidTrackerSolo\Tests\Test.js:35:5)</failure>
+
+    
+
+    
+
+    
+
+    
+
+    <failure message="    at getTime (C:\Users\atrai\DevMountainClassWork\Projects\DestinyRaidTrackerSolo\Tests\Test.js:11:17)">    at Object.Fastest Time Test (C:\Users\atrai\DevMountainClassWork\Projects\DestinyRaidTrackerSolo\Tests\Test.js:35:5)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

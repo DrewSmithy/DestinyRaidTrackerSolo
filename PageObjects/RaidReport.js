@@ -6,11 +6,11 @@ module.exports = {
         searchInput: ('input[id="search"]'),
         searchButton: ('i[class="material-icons search-button"]'),
         fastestLeviathan: {
-            selector: ('(//tr)[19]'),
+            selector: ('(//tr)[33]'),
             locateStrategy: 'xpath'
         },
         fastestEOW: {
-            selector: ('(//tr)[11]'),
+            selector: ('(//tr)[25]'),
             locateStrategy: 'xpath'
         },
         clearsRank: {
